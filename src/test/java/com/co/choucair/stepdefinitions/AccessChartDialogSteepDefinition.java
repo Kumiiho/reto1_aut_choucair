@@ -44,10 +44,27 @@ public class LoginOnSiteSteepDefinition {
         );
 
     }
-    @Then("^Accede al (.*) pantalla inicial$")
+    @When("^Accede al (.*) pantalla inicial$")
     public void seVeElDashboardPantallaInicial(String title) {
         OnStage.theActorInTheSpotlight().should(
                 GivenWhenThen.seeThat(ValidateTheTitle.on(TXT_TITTLE), containsString(title))
         );
     }
+    @When("Abre menu de opciones")
+    public void abreMenuDeOpciones() {
+
+    }
+    @When("Accede al apartado Chart in a Dialog")
+    public void accedeAlApartadoChartInADialog() {
+
+    }
+    @When("Da clic al boton Launch Dialog")
+    public void daClicAlBotonLaunchDialog() {
+
+    }
+    @Then("^Abre Launch Dialog y su contenido")
+    public void abreTitleGraphicYSuContenido() {
+
+    }
+
 }
