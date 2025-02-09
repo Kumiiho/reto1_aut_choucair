@@ -17,6 +17,7 @@ public class ValidateTheTitle implements Question<String> {
     }
 
     public static Question<String> on(Target element) {
+
         return new ValidateTheTitle(element);
     }
 }

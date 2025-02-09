@@ -152,7 +152,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 07-02-2025 19:28</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 08-02-2025 10:02</span>
     <br style="clear:left"/>
 </div>
 
@@ -181,7 +181,7 @@
                         <td valign="top" align="right">
                             <p class="tag">
                                 <span class="badge tag-badge" style="background:default;"
-                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="6c5512236937b92cd7a296b24edb966c2bd94be46b8910f8b129a42d6150eb25.html">1 To 10 Seconds
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="34658a1663fcf042bd7acb3325affbe4e647c8acd84d0228be2f52e1381e61b9.html">10 To 30 Seconds
                                         (Duration)
                                 </a>
                                 </span>
@@ -212,9 +212,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-hourglass-top pending-icon fa-2x' title='PENDING'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Successful login on the website
+                                <span class="pending-color">Successful login on the website
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -230,14 +230,14 @@
 
     <div class="story-title">
         <h3>Scenario:</h3>
-        <div class="scenario">Given El usuario accede al WebSite<br>When Ingresar credenciales de inicio de sesion<br><table class='embedded'><thead><th>user</th><th>password</th></thead><tbody><tr><td>&lt;user&gt;</td><td>&lt;password&gt;</td></tr></tbody></table><br>Then Accede al &lt;title&gt; pantalla inicial</div>
+        <div class="scenario">Given El usuario accede al WebSite<br>When Ingresar credenciales de inicio de sesion<br><table class='embedded'><thead><th>user</th><th>password</th></thead><tbody><tr><td>&lt;user&gt;</td><td>&lt;password&gt;</td></tr></tbody></table><br>And Accede al &lt;title&gt; pantalla inicial<br>When Abre menu de opciones<br>When Accede al apartado &lt;opcionFinal&gt;<br>When Da clic al boton Launch Dialog<br>Then Abre &lt;titleGraphic&gt; y su contenido</div>
     </div>
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="caae3ea194ed2a44b59f1fe86a7adae142233db1a1895f8a53f5f5b6f7d1fa1d.png" title=" 1: Successful login on the website ({user=admin, password=serenity, title=Dashboard})" width="0"/>
+                <img src="caae3ea194ed2a44b59f1fe86a7adae142233db1a1895f8a53f5f5b6f7d1fa1d.png" title=" 1: Successful login on the website ({user=admin, password=serenity, title=Dashboard, opcionFinal=Chart in a Dialog})" width="0"/>
                 <img src="caae3ea194ed2a44b59f1fe86a7adae142233db1a1895f8a53f5f5b6f7d1fa1d.png" title=" Given El usuario accede al WebSite" width="0"/>
                 <img src="caae3ea194ed2a44b59f1fe86a7adae142233db1a1895f8a53f5f5b6f7d1fa1d.png" title=" Actor opens the browser at https://demo.serenity.is/Account/Login/?ReturnUrl=%2F" width="0"/>
                 <img src="caae3ea194ed2a44b59f1fe86a7adae142233db1a1895f8a53f5f5b6f7d1fa1d.png" title=" Given El usuario accede al WebSite (completed)" width="0"/>
@@ -246,20 +246,23 @@
 | admin | serenity |" width="0"/>
                 <img src="caae3ea194ed2a44b59f1fe86a7adae142233db1a1895f8a53f5f5b6f7d1fa1d.png" title=" Actor login on site" width="0"/>
                 <img src="caae3ea194ed2a44b59f1fe86a7adae142233db1a1895f8a53f5f5b6f7d1fa1d.png" title=" Actor enters 'admin' into txt" width="0"/>
-                <img src="d0ff60f121e34b69f4d633d15aca326e218d717574f1ebc853d598793653dc55.png" title=" Actor enters 'admin' into txt (completed)" width="0"/>
-                <img src="d0ff60f121e34b69f4d633d15aca326e218d717574f1ebc853d598793653dc55.png" title=" Actor enters 'serenity' into txt" width="0"/>
-                <img src="2d91d103f652001646603e78f149380a8841026df253c72cd769b96c3cfd478d.png" title=" Actor enters 'serenity' into txt (completed)" width="0"/>
-                <img src="2d91d103f652001646603e78f149380a8841026df253c72cd769b96c3cfd478d.png" title=" Actor clicks on txt" width="0"/>
-                <img src="f653e266605fa78d71b9139ad535b80335895688ad9061a2d46aeeefbbf47c20.png" title=" Actor clicks on txt (completed)" width="0"/>
-                <img src="aa558881b929936c3a1df7c9b20eb4b013822e3eacb6faccde29f82c0ac4f0ce.png" title=" Actor login on site (completed)" width="0"/>
-                <img src="aa558881b929936c3a1df7c9b20eb4b013822e3eacb6faccde29f82c0ac4f0ce.png" title=" When Ingresar credenciales de inicio de sesion
+                <img src="ff360c7371cc416fe396d9f1df2246012ad97558a801191432940451438ddc18.png" title=" Actor enters 'admin' into txt" width="0"/>
+                <img src="bd697d2fd1d409635e91b1ca64d6c82591a08b99d62b7d78ca6899afdc732d4b.png" title=" Actor enters 'admin' into txt (completed)" width="0"/>
+                <img src="bd697d2fd1d409635e91b1ca64d6c82591a08b99d62b7d78ca6899afdc732d4b.png" title=" Actor enters 'serenity' into txt" width="0"/>
+                <img src="5f6f4a2ef8ec4cf349bdc976a8720256d1a989e31f4d661b4fcef4a3b62c488a.png" title=" Actor enters 'serenity' into txt (completed)" width="0"/>
+                <img src="5f6f4a2ef8ec4cf349bdc976a8720256d1a989e31f4d661b4fcef4a3b62c488a.png" title=" Actor clicks on txt" width="0"/>
+                <img src="3a3f46113ba9fb80f003bd699f05a4de39505060ddd01d18a30d1175793d38ea.png" title=" Actor clicks on txt (completed)" width="0"/>
+                <img src="3a3f46113ba9fb80f003bd699f05a4de39505060ddd01d18a30d1175793d38ea.png" title=" Actor login on site (completed)" width="0"/>
+                <img src="472c33ac2a21a22c1120720f1e3b4e72bd401773d4e86c9ceb47ff7ed8d6f312.png" title=" When Ingresar credenciales de inicio de sesion
 | user | password |
 | admin | serenity | (completed)" width="0"/>
-                <img src="aa558881b929936c3a1df7c9b20eb4b013822e3eacb6faccde29f82c0ac4f0ce.png" title=" Then Accede al Dashboard pantalla inicial" width="0"/>
-                <img src="2e57a23b8d20de6c95240648256750c1717fb79e45deb12b51b9d78988cfe67c.png" title=" Then validate the title should be a string containing 'Dashboard'" width="0"/>
-                <img src="9f8455cff399551e0bfb5886e012eb3f54afe0e0b47fc3f3337025c779b0ec35.png" title=" Then validate the title should be a string containing 'Dashboard' (completed)" width="0"/>
+                <img src="472c33ac2a21a22c1120720f1e3b4e72bd401773d4e86c9ceb47ff7ed8d6f312.png" title=" And Accede al Dashboard pantalla inicial" width="0"/>
+                <img src="36dda79a3625091fe956ef71737c670d1972ed401319ccaecdbf0931d09f1bc6.png" title=" Then validate the title should be a string containing 'Dashboard'" width="0"/>
+                <img src="2a628b80905198e7e9531125642acd6aff9a872d86325bccf02f497dae178f4a.png" title=" Then validate the title should be a string containing 'Dashboard' (completed)" width="0"/>
+                <img src="2a628b80905198e7e9531125642acd6aff9a872d86325bccf02f497dae178f4a.png" title=" And Accede al Dashboard pantalla inicial (completed)" width="0"/>
+                <img src="2a628b80905198e7e9531125642acd6aff9a872d86325bccf02f497dae178f4a.png" title=" When Abre menu de opciones" width="0"/>
 
-                <img src="9f8455cff399551e0bfb5886e012eb3f54afe0e0b47fc3f3337025c779b0ec35.png" title=" Then Accede al Dashboard pantalla inicial (completed): <span class='success-color'>SUCCESS</span>" width="0"/>
+                <img src="2a628b80905198e7e9531125642acd6aff9a872d86325bccf02f497dae178f4a.png" title=" When Accede al apartado Chart in a Dialog: <span class='pending-color'>PENDING</span>" width="0"/>
             </div>
         </div>
 
